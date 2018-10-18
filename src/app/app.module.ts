@@ -5,7 +5,8 @@ import {
   MatCardModule,
   MatButtonModule,
   MatFormFieldModule,
-  MatGridListModule
+  MatGridListModule,
+  MatDividerModule
 } from '@angular/material';
 
 
@@ -15,6 +16,7 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { GraficaComponent } from './graficas/grafica.component';
+import { ChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -33,7 +35,9 @@ import { GraficaComponent } from './graficas/grafica.component';
     MatCardModule,
     MatButtonModule,
     MatFormFieldModule,
-    MatGridListModule
+    MatGridListModule,
+    ChartsModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

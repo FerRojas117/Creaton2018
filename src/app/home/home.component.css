@@ -2,19 +2,22 @@
 mat-card {
   text-align: center;
   width: 90%;
+  margin: auto; /* no mover */
 }
 
-p {
-  text-align: center;
-}
 
 img {
-  height: 100%;
- width: 100%;
+  margin: 2px;
+  display: block;
+  height: 95%;
+  width: 95%;
+  border-radius: 10%;
+  
 }
 
 .cardsMain {
- height: 100%;
- width: 100%;
+  margin: auto;
+  height: 100%;
+  width: 100%;
 }
 
