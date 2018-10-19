@@ -1,5 +1,10 @@
+.divmain {
+  background-color:rgb(210, 214, 216);
+}
+
 
 main {
   width: 90%;
   margin: 1rem auto;
+ 
 }

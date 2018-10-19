@@ -1,5 +1,7 @@
 <script src="node_modules/chart.js/src/chart.js"></script>
-<app-header></app-header>
-<main>
-<router-outlet></router-outlet>
-</main>
+<div class="divmain">
+    <app-header></app-header>
+    <main>
+        <router-outlet (activate)="onActivate($event)"></router-outlet>
+    </main>
+</div>

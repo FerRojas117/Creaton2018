@@ -1,73 +1,85 @@
 <br>
-<mat-card>
+<mat-card class="cardsilla">
 
     <p>
-      TRANSPARENCIA
+      TRANSPARENCIA<br>
+      La transparencia, es la cualidad que permite al ciudadano acceder a la información,<br> 
+      sobre el manejo administrativo del ingreso público en organismos gubernamentales.
     </p>
 
 </mat-card>
 <br>
-<p class = "inicio">
-    La transparencia, es la cualidad que permite al ciudadano acceder a la información,<br> 
-    sobre el manejo administrativo del ingreso público en organismos gubernamentales.
-</p>
 
 <mat-grid-list cols="5" rowHeight="2:1">
-    <mat-grid-tile class = "inicio">Derecho de acceso a la información pública</mat-grid-tile>
+    <mat-grid-tile class = "inicio">
+         <mat-card class="cardsilla">Derecho de acceso a la información pública </mat-card></mat-grid-tile>
     <mat-grid-tile class = "inicio">Normatividad en transparencia y acceso a los datos abiertos gubernamentales</mat-grid-tile>
-    <mat-grid-tile class = "inicio">Entrega de información por parte de las instituciones obligadas</mat-grid-tile>
+    <mat-grid-tile class = "inicio">
+            <mat-card class="cardsilla">Entrega de información por parte de las instituciones obligadas </mat-card></mat-grid-tile>
     <mat-grid-tile class = "inicio">Protección de datos personales de los organismos gubernamentales</mat-grid-tile>
-    <mat-grid-tile class = "inicio">Agregar información en los portales para la presentación de la información</mat-grid-tile>
+    <mat-grid-tile class = "inicio">
+            <mat-card class="cardsilla">Agregar información en los portales para la presentación de la información
+            </mat-card>
+    </mat-grid-tile>
 </mat-grid-list><br><br>
 
-<div style="display: block">
-    <canvas baseChart
-                [data]="doughnutChartData"
-                [labels]="doughnutChartLabels"
-                [chartType]="doughnutChartType"
-                (chartHover)="chartHovered($event)"
-                (chartClick)="chartClicked($event)"></canvas>
-</div>
-<br>
+
+<mat-grid-list cols="4" rowHeight="500px">
+        <mat-grid-tile class = "inicio" [colspan]="3">              
+        <div style="display: block" class="divsillo" >
+                <canvas baseChart
+                            [data]="doughnutChartData"
+                            [labels]="doughnutChartLabels"
+                            [chartType]="doughnutChartType"
+                            (chartHover)="chartHovered($event)"
+                            (chartClick)="chartClicked($event)"></canvas>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile class = "inicio" [colspan]="1">
+                <mat-card class="cardsillita"> <h1> 2010 -2018 </h1>  <h1> Presupuesto neto: $5,279,667,000,000</h1>
+                </mat-card>
+        </mat-grid-tile>
+</mat-grid-list>
+
+
 <mat-grid-list cols="4" rowHeight="200px">
   <mat-grid-tile class="cardsMain">
     <div class="container">
-      <a class="aMod" routerLink="/comSalud"> <img  mat-card-image src="assets/SALUD.png" alt="Foto de Salud"></a>
+      <a title = "Salud" class="aMod" routerLink="/comSalud"> <img  mat-card-image src="assets/SALUD.png" alt="Foto de Salud"></a>
+      
     </div>
   </mat-grid-tile>
 
   <mat-grid-tile class="cardsMain">
-      <a routerLink="/comTec"> <img  mat-card-image src="assets/tecno.png" alt="Foto de Comunicación"></a>
-  </mat-grid-tile >
+      <a title = "Comunicación y Tecnología" routerLink="/comTec"> <img  mat-card-image src="assets/tecno.png" alt="Foto de Comunicación"></a>
+    </mat-grid-tile >
 
   <mat-grid-tile class="cardsMain">
 
-      <a routerLink="/comEducacion"> <img  mat-card-image src="assets/EDUCACION.png" alt="Foto de Educacion"></a>
+      <a title = "Educación" routerLink="/comEducacion"> <img  mat-card-image src="assets/EDUCACION.png" alt="Foto de Educacion"></a>
 
   </mat-grid-tile>
   
   <mat-grid-tile class="cardsMain">
-      <a routerLink="/comEmpleo"> <img  mat-card-image src="assets/NEGOCIOS.png" alt="Foto de Negocios"></a>
-  </mat-grid-tile>
+      <a title = "Empleo y Negocios" routerLink="/comEmpleo"> <img  mat-card-image src="assets/NEGOCIOS.png" alt="Foto de Negocios"></a>
+    </mat-grid-tile>
 
   <mat-grid-tile class="cardsMain">
-      <a routerLink="/comPoblacion"> <img  mat-card-image src="assets/POBLACION.png" alt="Foto de Poblacion"></a>
-  </mat-grid-tile>
+      <a title = "Población" routerLink="/comPoblacion"> <img  mat-card-image src="assets/POBLACION.png" alt="Foto de Poblacion"></a>
+    </mat-grid-tile>
 
   <mat-grid-tile class="cardsMain">
-      <a routerLink="/comSeguridad"> <img  mat-card-image src="assets/SEGURIDAD.png" alt="Foto de Seguridad"></a>
-  </mat-grid-tile>
-
-  <mat-grid-tile class="cardsMain">
-
-       <a routerLink="/comServicios"> <img  mat-card-image src="assets/SERVICIOSPUBLICOS.png" alt="Foto de Servicios Publicos"></a>
-   
-  </mat-grid-tile>
+      <a title = "Seguridad y Justicia" routerLink="/comSeguridad"> <img  mat-card-image src="assets/SEGURIDAD.png" alt="Foto de Seguridad"></a>
+    </mat-grid-tile>
 
   <mat-grid-tile class="cardsMain">
 
-       <a routerLink="/comTurismo"> <img  mat-card-image src="assets/CULTURA.PNG" alt="Foto de Cultura"></a>
- 
+       <a title = "Servicios Públicos" routerLink="/comServicios"> <img  mat-card-image src="assets/SERVICIOSPUBLICOS.png" alt="Foto de Servicios Publicos"></a>
+  </mat-grid-tile>
+
+  <mat-grid-tile class="cardsMain">
+
+       <a title = "Turismo y Cultura" routerLink="/comTurismo"> <img  mat-card-image src="assets/CULTURA.PNG" alt="Foto de Cultura"></a>
   </mat-grid-tile>
 
 
@@ -76,7 +88,6 @@
     
   <mat-grid-tile class="sola">
 
-        <a routerLink="/comFinanzas"> <img  mat-card-image src="assets/FINANZAS.png" alt="Foto de Finanzas"></a>
-  
+        <a title = "Finanzas" routerLink="/comFinanzas"> <img  mat-card-image src="assets/FINANZAS.png" alt="Foto de Finanzas"></a>
    </mat-grid-tile>
 </mat-grid-list>

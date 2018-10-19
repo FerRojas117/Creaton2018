@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+
 
 
 export interface PeriodicElement {
@@ -21,9 +22,13 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class SaludComponent {
 
+  
   displayedColumns: string[] = ['name', 'symbol'];
   dataSource = ELEMENT_DATA;
     /*--------------------------------------------------------------*/
+
+
+
     public barChartOptions:any = {
       scaleShowVerticalLines: false,
       responsive: true

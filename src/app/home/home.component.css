@@ -1,8 +1,9 @@
 
-mat-card {
+.cardsilla {
   text-align: center;
-  width: 88%;
+  width: 96%;
   /* no mover */
+
 }
 mat-grid-tile {
   margin: auto;
@@ -28,4 +29,15 @@ img {
 .container {
   position: relative;
   margin: 0 auto; /* Center it */
+}
+
+.divsillo {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+.cardsillita {
+  text-align: center;
+  width: 96%;
+  border-radius: 10%;
 }
