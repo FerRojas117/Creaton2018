@@ -11,6 +11,7 @@ a {
 
 .spacer {
   flex: 1 1 auto;
+
 }
 
 
@@ -25,8 +26,25 @@ a {
 
 mat-toolbar {
   background-color: indigo;
+  height: 100px;
 }
 
 .bitoncillazo {
   background-color: indigo;
+  width: 30%;
+  height:50%;
+  
+}
+
+.spancillo {
+  width: 70%;
+  height: 60%;
+}
+
+.imagencilla {
+  
+  width: 60%;   
+  height: 160%;
+  margin: auto;
+
 }
