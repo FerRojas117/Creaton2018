@@ -27,8 +27,8 @@ export class TurismoComponent {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
     // Doughnut
-    public doughnutChartLabels:string[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
-    public doughnutChartData:number[] = [350, 450, 100];
+    public doughnutChartLabels:string[] = ['Presupuesto de población', 'Presupuesto de empleo y negocios', 'Presupuesto de educación', 'Presupuesto de seguridad y justicia', 'Presupuesto de salud', 'Presupuesto de servicios públicos e infraestructura', 'Presupuesto de finanzas', 'Presupuesto de turismo, relaciones exteriores y cultura', 'Presupuesto de comunicación y tecnología'];
+    public doughnutChartData:number[] = [1511193662764, 1152993487657, 334925313813, 244988874971, 122557337320, 106645504028, 27076350643, 22315591894, 11377267259];
     public doughnutChartType:string = 'doughnut';
    
     // events
