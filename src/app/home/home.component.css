@@ -8,6 +8,10 @@ mat-grid-tile {
   margin: auto;
 }
 
+.inicio{
+  text-align: center;
+}
+
 img {
   margin: 20px;
   display: block;
