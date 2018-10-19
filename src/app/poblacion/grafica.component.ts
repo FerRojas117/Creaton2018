@@ -37,7 +37,7 @@ export class PoblacionComponent {
    
     public barChartData:any[] = [
       {data: [81563.6, 558495.8, 635099.9, 695126.3, 1238192.5, 1341375.7], label: 'Protección social'},
-      {data: [0, 0, 0, 1739.9, 795.9, 573.9], label: 'Otros asuntos sociales'}
+      {data: [435320, 589730, 467508, 605064.9, 623043.9, 805064.9], label: 'Otros asuntos sociales'}
     ];
    
     // events

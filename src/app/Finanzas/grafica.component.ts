@@ -35,7 +35,7 @@ export class FinanzasComponent {
     public barChartLegend:boolean = true;
    
     public barChartData:any[] = [
-      {data: [18487.9, 0, 0, 0, 800, 99806.8], label: 'Otras industrias y otros asuntos económicos'},
+      {data: [18487.9, 20454, 40382, 60432, 75645, 99806.8], label: 'Otras industrias y otros asuntos económicos'},
       {data: [41983.7, 67578.7, 101692.3, 60015.1, 117029.7, 243618.5], label: 'Asuntos financieros y hacendarios'}
     ];
    
