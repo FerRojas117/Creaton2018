@@ -6,7 +6,8 @@ import {
   MatButtonModule,
   MatFormFieldModule,
   MatGridListModule,
-  MatDividerModule
+  MatDividerModule,
+  MatTableModule
 } from '@angular/material';
 
 
@@ -15,8 +16,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
-import { GraficaComponent } from './graficas/grafica.component';
 import { ChartsModule } from 'ng2-charts';
+import { ComTecComponent } from './comunicacionTecnologia/grafica.component';
+import { SaludComponent } from './salud/grafica.component';
+import { EducacionComponent } from './educacion/grafica.component';
+import { EmpleoComponent } from './empleoNegociacion/grafica.component';
+import { PoblacionComponent } from './poblacion/grafica.component';
+import { SeguridadComponent } from './seguridadJusticia/grafica.component';
+import { ServiciosComponent } from './serviciosPublicos/grafica.component';
+import { TurismoComponent } from './turismoCultura/grafica.component';
+import { FinanzasComponent } from './Finanzas/grafica.component';
 
 
 @NgModule({
@@ -24,7 +33,15 @@ import { ChartsModule } from 'ng2-charts';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    GraficaComponent
+    ComTecComponent,
+    SaludComponent,
+    EducacionComponent,
+    EmpleoComponent,
+    PoblacionComponent,
+    SeguridadComponent,
+    ServiciosComponent,
+    TurismoComponent,
+    FinanzasComponent
 
   ],
   imports: [
@@ -37,7 +54,8 @@ import { ChartsModule } from 'ng2-charts';
     MatFormFieldModule,
     MatGridListModule,
     ChartsModule,
-    MatDividerModule
+    MatDividerModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

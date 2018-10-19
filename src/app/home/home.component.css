@@ -1,23 +1,27 @@
 
 mat-card {
   text-align: center;
-  width: 90%;
-  margin: auto; /* no mover */
+  width: 88%;
+  /* no mover */
+}
+mat-grid-tile {
+  margin: auto;
 }
 
-
 img {
-  margin: 2px;
+  margin: 20px;
   display: block;
-  height: 95%;
-  width: 95%;
+  height: 80%;
+  width: 52%;
   border-radius: 10%;
-  
 }
 
 .cardsMain {
   margin: auto;
   height: 100%;
-  width: 100%;
+  width: 50%;
 }
-
+.container {
+  position: relative;
+  margin: 0 auto; /* Center it */
+}
