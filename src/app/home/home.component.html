@@ -1,3 +1,4 @@
+<br>
 <mat-card>
 
     <p>
@@ -5,7 +6,16 @@
     </p>
 
 </mat-card>
-
+<br><br>
+<div style="display: block">
+    <canvas baseChart
+                [data]="doughnutChartData"
+                [labels]="doughnutChartLabels"
+                [chartType]="doughnutChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+</div>
+<br>
 <mat-grid-list cols="4" rowHeight="200px">
   <mat-grid-tile class="cardsMain">
     <div class="container">
